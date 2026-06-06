@@ -12,11 +12,13 @@
 #include <windows.h>
 #include <winhttp.h>
 #include <wininet.h>
+#include <xinput.h>
 #include <cstring>
 #include <cstdio>
 
 #pragma comment(lib, "winhttp.lib")
 #pragma comment(lib, "wininet.lib")
+#pragma comment(lib, "xinput.lib")
 
 // ============================================================
 // 配置：要拦截的URL路径和返回数据
