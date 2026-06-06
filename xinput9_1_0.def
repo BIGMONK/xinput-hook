@@ -1,0 +1,6 @@
+LIBRARY xinput9_1_0
+EXPORTS
+    XInputGetState         = Fwd_XInputGetState
+    XInputSetState         = Fwd_XInputSetState
+    XInputGetCapabilities  = Fwd_XInputGetCapabilities
+    XInputEnable           = Fwd_XInputEnable
